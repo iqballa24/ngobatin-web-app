@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,7 +20,7 @@
 
     <main>
 
-        <div id="carousel"></div>
+        <!-- <div id="carousel"></div> -->
 
         <div class="search__section">
             <h1>Cari obat terlengkap</h1>
@@ -34,6 +35,7 @@
                 <option value="obatHerbal">Obat Herbal</option>
                 <option value="obatDemam">Obat Demam</option>
                 <option value="obatKulit">Obat Kulit</option>
+                <option value="alatKesehatan">Alat Kesehatan</option>
             </select>
             
             <!-- jumlah hasil pencarian -->
@@ -50,7 +52,12 @@
             </div>
 
             <!-- selected item -->
-            <div id="selectedItem" class="row"></div>
+            <div id="selectedItem" class="row">
+
+            </div>
+            <div class="text-center">
+                <button href="" class="button button__primary load__more col-6">Load more</button>
+            </div>
 
         </div>
     </main>
@@ -61,7 +68,6 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="./assets/js/app.js"></script>
-    <script src="./assets/js/main.js"></script>
 
 </body>
 </html>

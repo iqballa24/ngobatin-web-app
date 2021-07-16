@@ -32,6 +32,8 @@ function getAllItems() {
 
 document.getElementById('selector').addEventListener("change", ()=>{
     const itemsElement = document.getElementById('selectedItem');
+    const btnLoadMore  = document.querySelector('.load__more'); 
+    btnLoadMore.style.visibility = "visible";
     SELECTED_URL = getSelectItem();
     itemsElement.innerHTML = '';
     getAllItems();
