@@ -11,7 +11,7 @@ const searchStates = async searchText => {
 
     if(searchText.length === 0) {
         result = [];
-    }else if(result.length == 0){
+    }else if(result.length === 0){
         result = [];
         resultList.innerHTML = `<h3> Hasil pencarian '${searchText}' tidak di temukan </h3>`;
         document.getElementById('count_result').innerHTML = '';

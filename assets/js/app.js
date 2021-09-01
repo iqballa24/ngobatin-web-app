@@ -7,7 +7,7 @@ import * as resultSearchJs from './component/resultSearch.js';
 
 document.addEventListener("DOMContentLoaded", function () {
     
-    // event when input search
+    // event get items result from input search
     resultSearchJs.search.addEventListener('keyup', () => {
         
         if(resultSearchJs.search.value == '') {
